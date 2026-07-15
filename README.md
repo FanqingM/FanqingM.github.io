@@ -1,13 +1,7 @@
-# Fanqing Meng — Personal Homepage
+# Fanqing Meng — Academic Homepage
 
-Source for [fanqingm.github.io](https://fanqingm.github.io/).
+Personal academic homepage for [Fanqing Meng](https://fanqingm.github.io/), built with the
+[academic-homepage](https://github.com/luost26/academic-homepage) Jekyll template.
 
-The site is intentionally dependency-free: plain HTML, CSS, and JavaScript, deployed directly with GitHub Pages.
-
-## Local preview
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
+Profile information is configured in `_data/profile.yml`; publications are stored in
+`_publications/`.

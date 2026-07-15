@@ -1,0 +1,14 @@
+title: "Fanqing Meng"
+description: "Fanqing Meng is an AI researcher working on multimodal reasoning, reinforcement learning, and self-evolving agents."
+url: "https://fanqingm.github.io"
+baseurl: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+
+collections:
+  - publications
+  - news
+
+timezone: Asia/Shanghai

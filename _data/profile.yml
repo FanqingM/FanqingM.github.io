@@ -1,0 +1,57 @@
+primary_name: "Fanqing Meng"
+secondary_name: "孟繁青"
+navbar_name: "Fanqing Meng"
+
+positions:
+  - name: PhD Student in Computer Science, National University of Singapore
+  - name: CTO, Evolvent AI
+
+email: "mengfanqing@u.nus.edu"
+gscholar: iUIC-JEAAAAJ
+github: FanqingM
+twitter: FanqingMengAI
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a PhD student in Computer Science at the
+    <a href="https://www.comp.nus.edu.sg/" target="_blank">National University of Singapore</a>
+    and CTO at <a href="https://evolvent.co/en" target="_blank">Evolvent AI</a>.
+    My research focuses on <strong>multimodal reasoning</strong>,
+    <strong>reinforcement learning</strong>, and <strong>self-evolving agents</strong>.
+  </p>
+  <p>
+    I am interested in building AI systems that improve through data, feedback, and experience.
+    My work spans multimodal benchmarks, rule-based RL, model evaluation, and scalable data engines.
+    Previously, I conducted research at Kimi and Shanghai AI Laboratory.
+  </p>
+
+portrait_url: /assets/images/photos/fanqing-meng.jpg
+
+education:
+  - name: National University of Singapore
+    position: PhD in Computer Science
+    date: Jan. 2026 - Present
+  - name: Shanghai Jiao Tong University
+    position: Direct-entry PhD Programme, Information and Communication Engineering
+    date: 2023 - 2025
+  - name: Tongji University
+    position: B.Eng. in Software Engineering
+    date: 2019 - 2023
+
+experience:
+  - name: Evolvent AI
+    position: CTO
+    date: Present
+  - name: Kimi
+    position: Research Intern
+    date: Previous
+  - name: Shanghai AI Laboratory
+    position: Research Intern
+    date: 2023 - 2025
+
+awards:
+  - name: First-Class Scholarship, Tongji University
+    date: 2020 - 2022
+  - name: B.Eng. GPA 4.82/5.00, ranked 7/212
+    date: 2023
