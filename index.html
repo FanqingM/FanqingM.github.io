@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Fanqing Meng is an AI researcher and builder working on multimodal reasoning, reinforcement learning, and self-evolving agents."
+    />
+    <meta name="theme-color" content="#f4f7f5" />
+    <meta property="og:title" content="Fanqing Meng — AI Researcher & Builder" />
+    <meta
+      property="og:description"
+      content="Research in multimodal reasoning, reinforcement learning, and self-evolving AI systems."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fanqingm.github.io/" />
+    <meta property="og:image" content="https://fanqingm.github.io/assets/fanqing-meng.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Fanqing Meng — AI Researcher & Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Fanqing Meng, home">
+        <span>FM</span>
+        <span class="wordmark-name">Fanqing Meng</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#work">Selected work</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Use dark theme">
+          <i data-lucide="moon" aria-hidden="true"></i>
+        </button>
+        <button
+          class="icon-button mobile-only"
+          id="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+        >
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+        <a href="#research">Research</a>
+        <a href="#work">Selected work</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">AI researcher · systems builder</p>
+          <h1 id="hero-title">Fanqing Meng <span>孟繁青</span></h1>
+          <p class="hero-thesis">I build AI systems that learn from data, feedback, and use.</p>
+          <p class="hero-intro">
+            PhD student in Computer Science at
+            <a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noreferrer">NUS</a>
+            and CTO at
+            <a href="https://evolvent.co/en" target="_blank" rel="noreferrer">Evolvent AI</a>.
+            My work spans multimodal reasoning, reinforcement learning, and self-evolving agents.
+            Previously, I conducted research at Kimi and Shanghai AI Laboratory.
+          </p>
+          <div class="hero-links" aria-label="Profile links">
+            <a href="https://scholar.google.com/citations?user=iUIC-JEAAAAJ&hl=en" target="_blank" rel="noreferrer">
+              Google Scholar <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/FanqingM" target="_blank" rel="noreferrer">
+              GitHub <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a href="https://huggingface.co/FanqingM" target="_blank" rel="noreferrer">
+              Hugging Face <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <figure class="portrait reveal">
+          <img src="assets/fanqing-meng.jpg" alt="Portrait of Fanqing Meng" width="270" height="270" />
+          <figcaption>
+            <span>Singapore · Shanghai</span>
+            <span>Researching what learns next.</span>
+          </figcaption>
+        </figure>
+
+        <div class="research-trace reveal" aria-label="Research progression">
+          <div class="trace-line" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="trace-step">
+            <span class="trace-index">01</span>
+            <strong>Perception</strong>
+            <small>Multimodal understanding</small>
+          </div>
+          <div class="trace-step">
+            <span class="trace-index">02</span>
+            <strong>Reasoning</strong>
+            <small>RL, rewards, and verifiers</small>
+          </div>
+          <div class="trace-step current">
+            <span class="trace-index">03</span>
+            <strong>Evolution</strong>
+            <small>Agents that improve with experience</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Research direction</p>
+          <h2 id="research-title">From capable models to systems that keep improving.</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-item reveal">
+            <span class="focus-symbol">M</span>
+            <h3>Multimodal intelligence</h3>
+            <p>Models and benchmarks for visual reasoning across images, charts, video, mathematics, and physical worlds.</p>
+          </article>
+          <article class="focus-item reveal">
+            <span class="focus-symbol">R</span>
+            <h3>Learning through feedback</h3>
+            <p>Rule-based reinforcement learning, scalable process supervision, and evaluation signals that make improvement measurable.</p>
+          </article>
+          <article class="focus-item reveal">
+            <span class="focus-symbol">E</span>
+            <h3>Self-evolving systems</h3>
+            <p>Persistent agents, data engines, and research infrastructure that turn outcomes into reusable organizational intelligence.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="work-title">Research across models, data, and evaluation.</h2>
+          </div>
+          <a class="section-link" href="https://scholar.google.com/citations?user=iUIC-JEAAAAJ&hl=en" target="_blank" rel="noreferrer">
+            All publications <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="publications">
+          <article class="publication reveal">
+            <div class="publication-meta"><span>2026</span><span>Preprint · Kimi Team</span></div>
+            <div class="publication-body">
+              <h3>Attention Residuals</h3>
+              <p>Content-dependent aggregation across model depth, scaled to a 48B-total-parameter Kimi Linear architecture.</p>
+            </div>
+            <a class="publication-link" href="https://arxiv.org/abs/2603.15031" target="_blank" rel="noreferrer" aria-label="Read Attention Residuals">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="publication featured reveal">
+            <div class="publication-meta"><span>2025</span><span>Multimodal RL</span></div>
+            <div class="publication-body">
+              <h3>MM-Eureka: Exploring Visual Aha Moments with Rule-based Large-scale Reinforcement Learning</h3>
+              <p>Extends rule-based RL to multimodal reasoning and releases the complete models, data, and training pipeline.</p>
+              <div class="publication-actions">
+                <a href="https://arxiv.org/abs/2503.07365" target="_blank" rel="noreferrer">Paper</a>
+                <a href="https://github.com/ModalMinds/MM-EUREKA" target="_blank" rel="noreferrer">Code</a>
+                <a href="https://huggingface.co/datasets/FanqingM/MMK12" target="_blank" rel="noreferrer">Data</a>
+              </div>
+            </div>
+            <a class="publication-link" href="https://arxiv.org/abs/2503.07365" target="_blank" rel="noreferrer" aria-label="Read MM-Eureka">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>2025</span><span>ICML</span></div>
+            <div class="publication-body">
+              <h3>Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation</h3>
+              <p>PhyGenBench evaluates whether generated videos obey physical commonsense across diverse real-world scenarios.</p>
+            </div>
+            <a class="publication-link" href="https://proceedings.mlr.press/v267/meng25c.html" target="_blank" rel="noreferrer" aria-label="Read PhyGenBench">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>2024</span><span>ICML · Equal contribution</span></div>
+            <div class="publication-body">
+              <h3>MMT-Bench: A Comprehensive Multimodal Benchmark Towards Multitask AGI</h3>
+              <p>A 31K-question benchmark spanning 162 subtasks for diagnosing broad multimodal model capabilities.</p>
+            </div>
+            <a class="publication-link" href="https://proceedings.mlr.press/v235/ying24a.html" target="_blank" rel="noreferrer" aria-label="Read MMT-Bench">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>2024</span><span>ACL Findings</span></div>
+            <div class="publication-body">
+              <h3>ChartAssistant: A Universal Chart Multimodal Language Model</h3>
+              <p>A two-stage chart model trained through chart-to-table alignment and broad multitask instruction tuning.</p>
+            </div>
+            <a class="publication-link" href="https://aclanthology.org/2024.findings-acl.463/" target="_blank" rel="noreferrer" aria-label="Read ChartAssistant">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>2023</span><span>NeurIPS</span></div>
+            <div class="publication-body">
+              <h3>Foundation Model is Efficient: Multimodal Multitask Model Selector</h3>
+              <p>Efficiently predicts transfer performance across heterogeneous downstream tasks without brute-force fine-tuning.</p>
+            </div>
+            <a class="publication-link" href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/687b7b2bdcc2ced577c0a989b44e7078-Abstract-Conference.html" target="_blank" rel="noreferrer" aria-label="Read Foundation Model is Efficient">
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey" aria-labelledby="journey-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Journey</p>
+          <h2 id="journey-title">Research, engineering, and company building.</h2>
+        </div>
+
+        <div class="journey-columns">
+          <div class="journey-column reveal">
+            <h3>Current</h3>
+            <div class="timeline-item">
+              <span class="timeline-date">Now</span>
+              <div>
+                <h4>CTO · Evolvent AI</h4>
+                <p>Building data and agent infrastructure for AI systems that evolve with experience.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">2026—</span>
+              <div>
+                <h4>PhD in Computer Science · NUS</h4>
+                <p>Researching learning systems, multimodal reasoning, and self-evolving agents.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="journey-column reveal">
+            <h3>Previously</h3>
+            <div class="timeline-item">
+              <span class="timeline-date">Industry</span>
+              <div>
+                <h4>Kimi · Shanghai AI Laboratory</h4>
+                <p>Research internships in large language models, multimodal foundation models, and AI infrastructure.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">2023—25</span>
+              <div>
+                <h4>Graduate study · Shanghai Jiao Tong University</h4>
+                <p>Doctoral-level study in Information and Communication Engineering.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">2019—23</span>
+              <div>
+                <h4>B.Eng. Software Engineering · Tongji University</h4>
+                <p>Ranked 7/212 and received the First Class Scholarship in 2020, 2021, and 2022.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Open to exchange</p>
+          <h2 id="contact-title">Let’s build systems that improve after deployment.</h2>
+          <p>I’m always interested in research collaborations and conversations around multimodal reasoning, agent evaluation, and self-evolving AI.</p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="mailto:mengfanqing@u.nus.edu">
+            <span>Email</span>
+            <strong>mengfanqing@u.nus.edu</strong>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+          <a href="https://x.com/FanqingMengAI" target="_blank" rel="noreferrer">
+            <span>X / Twitter</span>
+            <strong>@FanqingMengAI</strong>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+          <a href="https://evolvent.co/en" target="_blank" rel="noreferrer">
+            <span>Company</span>
+            <strong>Evolvent AI</strong>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Fanqing Meng</p>
+      <p>Research · build · evaluate · evolve</p>
+    </footer>
+  </body>
+</html>
